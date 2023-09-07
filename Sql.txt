@@ -1,0 +1,7 @@
+Create table user(
+id int(5) unsigned auto increment primary key,
+username varchar(30) not null,
+email varchar(50)not null,
+password varchar(25),
+trn_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+);
